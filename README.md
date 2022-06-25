@@ -4,7 +4,7 @@ This function works in a similar way as `analogWrite()` in Arduino.
 
 PIC18F4525 MCU has two ports capable of generating PWM output: CCP1 (pin 17) and CCP2 (pin 16) which can be used independently.
 Here, I use them both at the same time in inverted phase mode to control the brightness of two LED's simultaneously in an infinite loop:
-while the voltage at CCP1 increments, the voltage at CCP2 decrements and vice versa.
+while the voltage at CCP1 increments, the average voltage at CCP2 decrements and vice versa.
 
 This code assumes that your timer settings are:
 ```
