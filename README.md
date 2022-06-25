@@ -10,6 +10,6 @@ T0CON = 0X87; // TMR0 on, 16bit with max divide rate freq of 7812.5Hz
 
 For the complete configuration I used, see header files.
 
-Bonus: a function similar to delay()` in arduino.
+Bonus: a function similar to `delay()` in arduino.
 
 All code is C.
