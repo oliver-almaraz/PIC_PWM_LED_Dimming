@@ -51,7 +51,7 @@ LOOP:
 	while (1){
 
 		// Increase brightness gradually in CCP1
-		while (CCPR1L != 254){ // 255 is max value for 8bit registers CCRXL
+		while (CCPR1L != 254){ // 255 is max value for 8bit registers CCPRXL
 			CCPR2L = CCPR1L += 2;
 			delay_msecs(50); // Defined in delay.h
 		}
